@@ -1,0 +1,32 @@
+*{
+    font-size: 100px;
+    cursor: pointer;
+    line-height: 0px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.op1{
+    opacity: 1.0;
+}
+
+.op2{
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(red, yellow, green);
+    width: 45%;
+    -webkit-animation: glow 0.5s ease-in-out infinite alternate;
+    -moz-animation: glow 0.5s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px rgb(255, 10, 10), 0 0 20px rgb(6, 30, 139), 0 0 30px #1700e6, 0 0 40px #1612e4, 0 0 50px #6e3250, 0 0 60px #ffffff, 0 0 70px #ffffff;
+    }
+    to {
+      text-shadow: 0 0 20px rgb(38, 255, 18), 0 0 30px #fc3200, 0 0 40px #17e24a, 0 0 50px #4d68ff, 0 0 60px #4dcdff, 0 0 70px #ffffff, 0 0 80px #ebebeb;
+    }
+  }
